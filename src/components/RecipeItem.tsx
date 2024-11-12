@@ -6,7 +6,7 @@ interface GetRecipeDetailsProps{
     getRecipeDetails: Recipe;
 }
 
-const RecipeDetailsItem: React.FC<GetRecipeDetailsProps> = ({ getRecipeDetails }) => {
+const RecipeItem: React.FC<GetRecipeDetailsProps> = ({ getRecipeDetails }) => {
     return (
         <div>
             <Link href={"/recipe-list"}>Go to recipe list</Link>
@@ -47,4 +47,4 @@ const RecipeDetailsItem: React.FC<GetRecipeDetailsProps> = ({ getRecipeDetails }
         </div>
     );
 };
-export default RecipeDetailsItem;
+export default RecipeItem;
