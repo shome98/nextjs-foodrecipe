@@ -14,6 +14,7 @@ export interface Recipe {
   cuisine: string;
   rating: number;
   image: string;
+  mealType: string[];
 }
 
 interface RecipeListProps {
